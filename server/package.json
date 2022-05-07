@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "migrate-and-start": "npx prisma migrate deploy && npm run start",
     "dev": "ts-node-dev src/server.ts",
     "start": "node dist/server.js",
     "build": "tsc",
