@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Rômulo Iorio <github.com/romulo-iorio>",
